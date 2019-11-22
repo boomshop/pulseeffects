@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-10 13:00-0300\n"
 "PO-Revision-Date: 2019-02-10 12:34+0100\n"
-"Last-Translator: David Keller <blobcodes@protonmail.com>\n"
+"Last-Translator: Markus Schmidt <schmidt@boomshop.net>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: data/ui/application.glade:41 src/calibration_ui.cpp:39
 #: src/calibration_ui.cpp:164
 msgid "Test Signals"
-msgstr "Testsignale"
+msgstr "Testsignal-Generator"
 
 #: data/ui/application.glade:63
 #: data/com.github.wwmm.pulseeffects.appdata.xml.in:5
@@ -56,7 +56,7 @@ msgstr "Ausfüllen"
 
 #: data/ui/spectrum_settings.glade:109
 msgid "Border"
-msgstr "Grenze"
+msgstr "Rahmen"
 
 #: data/ui/spectrum_settings.glade:134
 msgid "Use Custom Color"
@@ -64,28 +64,28 @@ msgstr "Benutzerdefinierte Farbe benutzen"
 
 #: data/ui/spectrum_settings.glade:159
 msgid "Use Gradient"
-msgstr ""
+msgstr "Verwende Farbverlauf"
 
 #: data/ui/spectrum_settings.glade:185
 msgid "Spectrum Color"
-msgstr "Spektrumfarbe"
+msgstr "Farbe des Spektrums"
 
 #: data/ui/spectrum_settings.glade:213
 msgid "Gradient Color"
-msgstr ""
+msgstr "Farbverlaufsfarbe"
 
 #: data/ui/spectrum_settings.glade:241
 #, fuzzy
 msgid "Spectrum Type"
-msgstr "Spektrum"
+msgstr "Spektrum Typ"
 
 #: data/ui/spectrum_settings.glade:255
 msgid "Bars"
-msgstr ""
+msgstr "Balken"
 
 #: data/ui/spectrum_settings.glade:256
 msgid "Lines"
-msgstr ""
+msgstr "Linien"
 
 #: data/ui/spectrum_settings.glade:271
 msgid "Points"
@@ -138,7 +138,7 @@ msgstr "Latenz"
 #: data/ui/pulse_settings.glade:285 data/ui/pulse_settings.glade:573
 #, fuzzy
 msgid "Pipeline Output"
-msgstr "Equalizer - Ausgang"
+msgstr ""
 
 #: data/ui/pulse_settings.glade:368 data/ui/blacklist_settings.glade:130
 msgid "Input Effects"
@@ -178,7 +178,7 @@ msgstr "Zurücksetzen"
 
 #: data/ui/general_settings.glade:133 data/ui/general_settings.glade:206
 msgid "Niceness"
-msgstr "Qualität"
+msgstr "Priorität"
 
 #: data/ui/general_settings.glade:134
 msgid "Real Time"
@@ -236,29 +236,29 @@ msgstr ""
 #: data/ui/pulse_info.glade:103
 #, fuzzy
 msgid "Default Sink"
-msgstr "Standard"
+msgstr "Standard Senke"
 
 #: data/ui/pulse_info.glade:115
 #, fuzzy
 msgid "Default Source"
-msgstr "Standard"
+msgstr "Standard Quelle"
 
 #: data/ui/pulse_info.glade:157
 msgid "Protocol"
-msgstr ""
+msgstr "Protokoll"
 
 #: data/ui/pulse_info.glade:184
 msgid "Default Sample Format"
-msgstr ""
+msgstr "Voreingestelltes Sample-Format"
 
 #: data/ui/pulse_info.glade:211
 msgid "Default Sampling Rate"
-msgstr ""
+msgstr "Voreingestellte Sampling-Rate"
 
 #: data/ui/pulse_info.glade:265
 #, fuzzy
 msgid "Channel Mapping"
-msgstr "Kanäle"
+msgstr "Kanalzuordnung"
 
 #: data/ui/pulse_info.glade:290
 msgid "Server"
@@ -266,21 +266,21 @@ msgstr ""
 
 #: data/ui/pulse_info.glade:335
 msgid "Modules"
-msgstr ""
+msgstr "Module"
 
 #: data/ui/pulse_info.glade:381
 #, fuzzy
 msgid "Clients"
-msgstr "Cent"
+msgstr ""
 
 #: data/ui/pulse_info.glade:444
 msgid "File"
-msgstr ""
+msgstr "Datei"
 
 #: data/ui/pulse_info.glade:454
 #, fuzzy
 msgid "Configuration"
-msgstr "Dauer"
+msgstr "Konfiguration"
 
 #: data/ui/pulse_info.glade:487
 #, fuzzy
@@ -289,16 +289,16 @@ msgstr "Resampler"
 
 #: data/ui/autogain.glade:24
 msgid "Auto Gain"
-msgstr "Vorverstärkung"
+msgstr "Automatische Vorverstärkung"
 
 #: data/ui/autogain.glade:145
 msgid "Reset History"
-msgstr ""
+msgstr "Verlauf zurücksetzen"
 
 #: data/ui/autogain.glade:157
 #, fuzzy
 msgid "Detect Silence"
-msgstr "Erkennung"
+msgstr "Erkenne Stille"
 
 #: data/ui/autogain.glade:188 data/ui/autogain.glade:567
 msgid "Momentary"
@@ -314,7 +314,7 @@ msgstr "Integriert"
 
 #: data/ui/autogain.glade:289
 msgid "Weights"
-msgstr "Gewichte"
+msgstr "Gewichtung"
 
 #: data/ui/autogain.glade:323
 msgid "Target"
@@ -368,7 +368,7 @@ msgstr "Verstärkung"
 #: data/ui/autogain.glade:763 data/ui/loudness.glade:24
 #: data/ui/loudness.glade:128
 msgid "Loudness"
-msgstr "Lautstärke"
+msgstr "Lautheit"
 
 #: data/ui/autogain.glade:816
 msgid "Range"
@@ -380,11 +380,11 @@ msgstr "Begrenzer"
 
 #: data/ui/limiter.glade:149
 msgid "Input Gain"
-msgstr "Eingabeverstärkung"
+msgstr "Eingangsverstärkung"
 
 #: data/ui/limiter.glade:182
 msgid "Limit"
-msgstr "Grenze"
+msgstr "Limit"
 
 #: data/ui/limiter.glade:237 data/ui/compressor.glade:373
 #: data/ui/multiband_compressor.glade:534
@@ -395,15 +395,15 @@ msgstr "Grenze"
 #: data/ui/multiband_gate.glade:960 data/ui/multiband_gate.glade:1370
 #: data/ui/multiband_gate.glade:1780
 msgid "Release"
-msgstr "Ausklingzeit"
+msgstr "Release"
 
 #: data/ui/limiter.glade:250 data/ui/compressor.glade:570
 msgid "Lookahead"
-msgstr "Ausblick"
+msgstr "Lookahead"
 
 #: data/ui/limiter.glade:285
 msgid "Oversampling"
-msgstr "Überabtastung"
+msgstr "Oversampling"
 
 #: data/ui/limiter.glade:334
 msgid "ASC"
@@ -426,7 +426,7 @@ msgstr "Kompressor"
 #: data/ui/multiband_gate.glade:995 data/ui/multiband_gate.glade:1405
 #: data/ui/multiband_gate.glade:1815 data/ui/deesser.glade:458
 msgid "Threshold"
-msgstr "Schwelle"
+msgstr "Schwellwert"
 
 #: data/ui/compressor.glade:272 data/ui/multiband_compressor.glade:601
 #: data/ui/multiband_compressor.glade:976
@@ -436,7 +436,7 @@ msgstr "Schwelle"
 #: data/ui/multiband_gate.glade:1439 data/ui/multiband_gate.glade:1849
 #: data/ui/deesser.glade:491
 msgid "Ratio"
-msgstr "Verhältnis"
+msgstr "Ratio"
 
 #: data/ui/compressor.glade:304 data/ui/multiband_compressor.glade:633
 #: data/ui/multiband_compressor.glade:1009
@@ -445,7 +445,7 @@ msgstr "Verhältnis"
 #: data/ui/multiband_gate.glade:653 data/ui/multiband_gate.glade:1062
 #: data/ui/multiband_gate.glade:1472 data/ui/multiband_gate.glade:1882
 msgid "Knee"
-msgstr "Übergang"
+msgstr "Knee"
 
 #: data/ui/compressor.glade:338 data/ui/multiband_compressor.glade:667
 #: data/ui/multiband_compressor.glade:1044
@@ -455,7 +455,7 @@ msgstr "Übergang"
 #: data/ui/multiband_gate.glade:1507 data/ui/multiband_gate.glade:1917
 #: data/ui/deesser.glade:522
 msgid "Makeup"
-msgstr "Hebung"
+msgstr "Makeup"
 
 #: data/ui/compressor.glade:386 data/ui/multiband_compressor.glade:500
 #: data/ui/multiband_compressor.glade:872
@@ -464,30 +464,30 @@ msgstr "Hebung"
 #: data/ui/multiband_gate.glade:520 data/ui/multiband_gate.glade:925
 #: data/ui/multiband_gate.glade:1335 data/ui/multiband_gate.glade:1745
 msgid "Attack"
-msgstr "Anstiegszeit"
+msgstr "Attack"
 
 #: data/ui/compressor.glade:413
 msgid "Downward"
-msgstr ""
+msgstr "Downward"
 
 #: data/ui/compressor.glade:414
 msgid "Upward"
-msgstr ""
+msgstr "Upward"
 
 #: data/ui/compressor.glade:426
 #, fuzzy
 msgid "Compression Mode"
-msgstr "Kompression"
+msgstr "Kompressionsmodus"
 
 #: data/ui/compressor.glade:454 data/ui/bass_enhancer.glade:145
 #: data/ui/exciter.glade:145 data/ui/deesser.glade:162
 msgid "Listen"
-msgstr "Zuhören"
+msgstr "Reinhören"
 
 #: data/ui/compressor.glade:500
 #, fuzzy
 msgid "Pre-amplification"
-msgstr "Anwendungen"
+msgstr "Vorverstärkung"
 
 #: data/ui/compressor.glade:535
 msgid "Reactivity"
@@ -500,7 +500,7 @@ msgstr ""
 #: data/ui/compressor.glade:584
 #, fuzzy
 msgid "Feed-back"
-msgstr "Speisung"
+msgstr "Rückkopplung"
 
 #: data/ui/compressor.glade:598 data/ui/equalizer_band.glade:48
 msgid "Type"
@@ -514,7 +514,7 @@ msgstr "Typ"
 #: data/ui/multiband_gate.glade:1308 data/ui/multiband_gate.glade:1718
 #: data/ui/deesser.glade:218 data/ui/deesser.glade:328
 msgid "Peak"
-msgstr "Hochpunkt"
+msgstr "Spitzenwert"
 
 #: data/ui/compressor.glade:613 data/ui/multiband_compressor.glade:472
 #: data/ui/multiband_compressor.glade:844
@@ -545,12 +545,12 @@ msgstr "Modus"
 #: data/ui/compressor.glade:643
 #, fuzzy
 msgid "Middle"
-msgstr "Mittlere Ebene"
+msgstr "Mittensignal"
 
 #: data/ui/compressor.glade:644
 #, fuzzy
 msgid "Side"
-msgstr "Vorverstärkung [dB]"
+msgstr "Seitensignal"
 
 #: data/ui/compressor.glade:645 data/ui/equalizer.glade:448
 #: data/ui/stereo_tools.glade:524 data/ui/delay.glade:131
@@ -564,16 +564,16 @@ msgstr "Rechts"
 
 #: data/ui/compressor.glade:660
 msgid "Source"
-msgstr ""
+msgstr "Quelle"
 
 #: data/ui/compressor.glade:676 data/ui/compressor.glade:913
 #, fuzzy
 msgid "Sidechain"
-msgstr "Vorverstärkung [dB]"
+msgstr "Sidechain"
 
 #: data/ui/compressor.glade:989
 msgid "Curve"
-msgstr ""
+msgstr "Kurve"
 
 #: data/ui/multiband_compressor.glade:70
 msgid "Multiband Compressor"
@@ -589,15 +589,15 @@ msgstr "LR8"
 
 #: data/ui/multiband_compressor.glade:312 data/ui/multiband_gate.glade:332
 msgid "Split 1/2"
-msgstr "1/2 Teilen"
+msgstr "Trennung 1/2"
 
 #: data/ui/multiband_compressor.glade:325 data/ui/multiband_gate.glade:345
 msgid "Split 2/3"
-msgstr "2/3 Teilen"
+msgstr "Trennung 2/3"
 
 #: data/ui/multiband_compressor.glade:338 data/ui/multiband_gate.glade:358
 msgid "Split 3/4"
-msgstr "3/4 Teilen"
+msgstr "Trennung 3/4"
 
 #: data/ui/multiband_compressor.glade:442
 #: data/ui/multiband_compressor.glade:814
@@ -606,7 +606,7 @@ msgstr "3/4 Teilen"
 #: data/ui/multiband_gate.glade:867 data/ui/multiband_gate.glade:1277
 #: data/ui/multiband_gate.glade:1687 data/ui/crystalizer_band.glade:39
 msgid "Bypass"
-msgstr "Umleitung"
+msgstr "Bypass"
 
 #: data/ui/multiband_compressor.glade:455
 #: data/ui/multiband_compressor.glade:827
@@ -626,19 +626,19 @@ msgstr "Kompression"
 
 #: data/ui/multiband_compressor.glade:796 data/ui/multiband_gate.glade:849
 msgid "Sub Band"
-msgstr "Unterer Bereich"
+msgstr "Bass-Band"
 
 #: data/ui/multiband_compressor.glade:1173 data/ui/multiband_gate.glade:1258
 msgid "Low Band"
-msgstr "Niedriger Bereich"
+msgstr "Untere Mitten"
 
 #: data/ui/multiband_compressor.glade:1551 data/ui/multiband_gate.glade:1668
 msgid "Mid Band"
-msgstr "Mittlerer Bereich"
+msgstr "Mitten"
 
 #: data/ui/multiband_compressor.glade:1929 data/ui/multiband_gate.glade:2078
 msgid "High Band"
-msgstr "Hoher Bereich"
+msgstr "Höhen"
 
 #: data/ui/filter.glade:31
 msgid "Filter"
@@ -743,11 +743,11 @@ msgstr "FFT"
 
 #: data/ui/equalizer.glade:187
 msgid "Bands"
-msgstr "Bereiche"
+msgstr "Bänder"
 
 #: data/ui/equalizer.glade:209
 msgid "Flat Response"
-msgstr "Glätten"
+msgstr "Gleichmäßige Response"
 
 #: data/ui/equalizer.glade:224
 msgid "Calculate Frequencies"
@@ -783,7 +783,7 @@ msgstr "Tiefen-Kuhschwanzfilter"
 
 #: data/ui/equalizer_band.glade:66
 msgid "Notch"
-msgstr "Ver­tie­fung"
+msgstr "Nadelfilter"
 
 #: data/ui/equalizer_band.glade:91
 msgid "RLC (BT)"
@@ -853,7 +853,7 @@ msgstr "Anwenden"
 
 #: data/ui/reverb.glade:64
 msgid "Reverberation"
-msgstr "Nachhall"
+msgstr "Hallgerät"
 
 #: data/ui/reverb.glade:157
 msgid "Ambience"
@@ -902,7 +902,7 @@ msgstr "Höhenschnitt"
 
 #: data/ui/reverb.glade:538
 msgid "Diffusion"
-msgstr "Verbreitung"
+msgstr "Diffusion"
 
 #: data/ui/reverb.glade:550
 msgid "Room Size"
@@ -938,7 +938,7 @@ msgstr "Hochfrequenz-Dämpfung"
 
 #: data/ui/bass_enhancer.glade:50
 msgid "Bass Enhancer"
-msgstr "Bass-Verstärker"
+msgstr "Bass Enhancer"
 
 #: data/ui/bass_enhancer.glade:186 data/ui/exciter.glade:187
 msgid "3rd"
@@ -955,7 +955,7 @@ msgstr "Oberwellen mischen"
 #: data/ui/bass_enhancer.glade:254 data/ui/bass_enhancer.glade:386
 #: data/ui/exciter.glade:258 data/ui/exciter.glade:390
 msgid "Harmonics"
-msgstr "Harmonie"
+msgstr "Harmonische"
 
 #: data/ui/bass_enhancer.glade:266 data/ui/exciter.glade:271
 msgid "Scope"
@@ -975,7 +975,7 @@ msgstr "Grenze"
 
 #: data/ui/stereo_tools.glade:42
 msgid "Stereo Tools"
-msgstr "Stereowerkzeuge"
+msgstr "Stereo-Werkzeuge"
 
 #: data/ui/stereo_tools.glade:207
 msgid "Softclip"
@@ -987,23 +987,23 @@ msgstr "Balance"
 
 #: data/ui/stereo_tools.glade:263
 msgid "S/C Level"
-msgstr "S/C-Level"
+msgstr "Softclip Pegel"
 
 #: data/ui/stereo_tools.glade:321
 msgid "Side Level"
-msgstr "Seitenebene"
+msgstr "Seitensignal"
 
 #: data/ui/stereo_tools.glade:372
 msgid "Side Balance"
-msgstr "Seitenausgleich"
+msgstr "Seitenbalance"
 
 #: data/ui/stereo_tools.glade:404
 msgid "Middle Level"
-msgstr "Mittlere Ebene"
+msgstr "Mittensignal"
 
 #: data/ui/stereo_tools.glade:417
 msgid "Middle Panorama"
-msgstr "Mittleres Panorama"
+msgstr "Mitten-Panorama"
 
 #: data/ui/stereo_tools.glade:475
 msgid "LR > LR (Stereo Default)"
@@ -1011,19 +1011,19 @@ msgstr "LR > LR (Stereo Standard)"
 
 #: data/ui/stereo_tools.glade:476
 msgid "LR > MS (Stereo to Mid-Side)"
-msgstr "LR > MS (Stereo zu Mittelseite)"
+msgstr "LR > MS (Stereo zu Mitte/seite)"
 
 #: data/ui/stereo_tools.glade:477
 msgid "MS > LR (Mid-Side to Stereo)"
-msgstr "MS > LR (Mittelseite zu Stereo)"
+msgstr "MS > LR (Mitte/Seite zu Stereo)"
 
 #: data/ui/stereo_tools.glade:478
 msgid "LR > LL (Mono Left Channel)"
-msgstr "LR > LL (Linker Monokanal)"
+msgstr "LR > LL (Linker Kanal Mono)"
 
 #: data/ui/stereo_tools.glade:479
 msgid "LR > RR (Mono Right Channel)"
-msgstr "LR > RR (Rechter Monokanal)"
+msgstr "LR > RR (Rechter Kanal Mono)"
 
 #: data/ui/stereo_tools.glade:480
 msgid "LR > L+R (Mono Sum L+R)"
@@ -1031,7 +1031,7 @@ msgstr "LR > L+R (Monosumme L+R)"
 
 #: data/ui/stereo_tools.glade:481
 msgid "LR > RL (Stereo Flip Channels)"
-msgstr "LR > RL (Stereo Kanäle tauschen)"
+msgstr "LR > RL (Stereokanäle tauschen)"
 
 #: data/ui/stereo_tools.glade:498
 msgid "Stereo Matrix"
@@ -1083,7 +1083,7 @@ msgstr "Verstärkungsreduzierung"
 
 #: data/ui/loudness.glade:196
 msgid "Link"
-msgstr "Verknüpfung"
+msgstr "Verknüpfen"
 
 #: data/ui/gate.glade:31
 msgid "Gate"
@@ -1095,7 +1095,7 @@ msgstr "Erkennung"
 
 #: data/ui/gate.glade:176
 msgid "Stereo Link"
-msgstr "Stereoverbindung"
+msgstr "Stereo Link"
 
 #: data/ui/gate.glade:235
 msgid "Average"
@@ -1119,11 +1119,11 @@ msgstr "Multiband Gate"
 #: data/ui/multiband_gate.glade:1562 data/ui/multiband_gate.glade:1972
 #: data/ui/deesser.glade:748
 msgid "Reduction"
-msgstr "Senkung"
+msgstr "Reduktion"
 
 #: data/ui/deesser.glade:61
 msgid "Deesser"
-msgstr "Deesser"
+msgstr "De-Esser"
 
 #: data/ui/deesser.glade:232
 msgid "Wide"
@@ -1135,19 +1135,19 @@ msgstr "Teilen"
 
 #: data/ui/deesser.glade:381
 msgid "Level"
-msgstr "Ebene"
+msgstr "Pegel"
 
 #: data/ui/deesser.glade:394
 msgid "Peak Q"
-msgstr "Höchstwert Q"
+msgstr "Filter Q"
 
 #: data/ui/deesser.glade:426
 msgid "Laxity"
-msgstr "Nachgiebigkeit"
+msgstr "Behäbigkeit"
 
 #: data/ui/deesser.glade:761
 msgid "Detected"
-msgstr "Erkannt"
+msgstr "Detektiert"
 
 #: data/ui/convolver.glade:24
 msgid "Convolver"
@@ -1175,7 +1175,7 @@ msgstr "Dauer"
 
 #: data/ui/convolver.glade:309
 msgid "Samples"
-msgstr "Probenahme"
+msgstr "Samples"
 
 #: data/ui/convolver.glade:342 src/convolver_ui.cpp:251
 msgid "Impulse Response"
@@ -1195,25 +1195,25 @@ msgstr "Stereo-Breite"
 
 #: data/ui/crystalizer.glade:48
 msgid "Crystalizer"
-msgstr "Dynamikerweiterung"
+msgstr "Kristallisierer"
 
 #: data/ui/crystalizer.glade:161
 #, fuzzy
 msgid "Aggressive Mode"
-msgstr "Kompression"
+msgstr "Aggressiver Modus"
 
 #: data/ui/crystalizer.glade:420
 #, fuzzy
 msgid "Loudness Range"
-msgstr "Lautstärke"
+msgstr "Lautheitsspanne"
 
 #: data/ui/crystalizer.glade:439
 msgid "Before"
-msgstr ""
+msgstr "Vorher"
 
 #: data/ui/crystalizer.glade:452
 msgid "After"
-msgstr ""
+msgstr "Nachher"
 
 #: data/ui/pitch.glade:36
 msgid "Pitch"
@@ -1225,7 +1225,7 @@ msgstr "Schneller"
 
 #: data/ui/pitch.glade:156
 msgid "Preserve Formant"
-msgstr "Formanz erhalten"
+msgstr "Formanten erhalten"
 
 #: data/ui/pitch.glade:180
 msgid "Cents"
@@ -1270,7 +1270,7 @@ msgstr "Unterdrückungsgrad"
 
 #: data/ui/webrtc.glade:225 data/ui/webrtc.glade:293 data/ui/webrtc.glade:548
 msgid "Low"
-msgstr "Tief"
+msgstr "Gering"
 
 #: data/ui/webrtc.glade:226 data/ui/webrtc.glade:294 data/ui/webrtc.glade:549
 msgid "Moderate"
@@ -1318,11 +1318,11 @@ msgstr "Erkennungswahrscheinlichkeit"
 
 #: data/ui/webrtc.glade:534
 msgid "Frame Size"
-msgstr "Rahmengröße"
+msgstr "Frame-Größe"
 
 #: data/ui/webrtc.glade:547
 msgid "Very Low"
-msgstr "Sehr Tief"
+msgstr "Sehr schwach"
 
 #: data/ui/webrtc.glade:584
 msgid "Voice Detector"
@@ -1391,7 +1391,7 @@ msgstr "Sinustabelle"
 
 #: data/ui/calibration_signals.glade:116
 msgid "Ticks"
-msgstr "Ticken"
+msgstr "Ticks"
 
 #: data/ui/calibration_signals.glade:117
 msgid "Gaussian Noise"
@@ -1419,7 +1419,7 @@ msgstr "Rauschen messen"
 
 #: data/ui/calibration_mic.glade:99
 msgid "Subtract Noise"
-msgstr "Rauschen reduzieren"
+msgstr "Rauschen subtrahieren"
 
 #: data/com.github.wwmm.pulseeffects.appdata.xml.in:8
 #: data/com.github.wwmm.pulseeffects.desktop.in:5
@@ -1436,8 +1436,8 @@ msgid ""
 "equalizer, limiter, compressor and a reverberation tool, just to mention a "
 "few. To complement this there is also a built in spectrum analyzer."
 msgstr ""
-"PulseEffects ist ein Audio-Manipulations-Tool. Es enthält einen Equalizer, "
-"Limiter, Kompressor, Hall und ein Spektrumanalysator."
+"PulseEffects ist ein Programm zur Signalbearbeitung. Es enthält u.a. Equalizer, "
+"Limiter, Kompressor, Hall und eine Spektralanalyse."
 
 #: data/com.github.wwmm.pulseeffects.appdata.xml.in:16
 msgid ""
@@ -1445,10 +1445,10 @@ msgid ""
 "with most, if not all, applications you use. All supported applications are "
 "presented in the main window, where each can be enabled individually."
 msgstr ""
-"Da PulseEffects den Standard PulseAudio Sound Server benutzt, funktioniert "
-"es mit so ziemlich allen Anwendungen. Alle unterstützten Anwendungen werden "
-"im Hauptfenster angezeigt, wo alle individuell Ein-/Ausgeschaltet werden "
-"können."
+"Da PulseEffects den Standard PulseAudio Sound Server benutzt, funktioniert es "
+"anwendungs-agnostisch. Alle verfügbaren Programme mit Audioausgabe werden "
+"im Programmfenster angezeigt, wo die Signalbearbeitung individuell an- oder "
+"abgeschaltet werden kann."
 
 #: data/com.github.wwmm.pulseeffects.appdata.xml.in:22
 msgid ""
@@ -1456,7 +1456,7 @@ msgid ""
 "an input device, such as a microphone. This is, for example, useful in audio "
 "recording, but it also works well during voice conversations."
 msgstr ""
-"Neben der Sound Manipulation des Ausgangs, kann PulseEffects auch Effekte "
+"Neben der Signalbearbeitung des Ausgangs kann PulseEffects auch Effekte "
 "auf Eingabegeräte, z.B. Mikrofone, anwenden. Dies ist sinnvoll für z.B. "
 "Audioaufnahmen oder VOIP Anwendungen."
 
@@ -1480,7 +1480,7 @@ msgstr "Enthält einen Equalizer mit integrierten Presets"
 
 #: data/com.github.wwmm.pulseeffects.appdata.xml.in:48
 msgid "Input Limiter"
-msgstr "Eingabe-Limiter"
+msgstr "Eingangsbegrenzer"
 
 #: data/com.github.wwmm.pulseeffects.appdata.xml.in:56
 msgid "Calibration"
@@ -1492,7 +1492,7 @@ msgstr "Equalizer, Kompressor und andere Audioeffekte"
 
 #: data/com.github.wwmm.pulseeffects.desktop.in:6
 msgid "limiter;compressor;reverberation;equalizer;autovolume;"
-msgstr "Limiter;Kompressor;Hall;Equalizer;Autovolumen;"
+msgstr "Limiter;Kompressor;Hall;Equalizer;Auto-Lautstärke;"
 
 #. Translators: This is an icon name, don't translate!
 #: data/com.github.wwmm.pulseeffects.desktop.in:10
@@ -1533,7 +1533,7 @@ msgstr "Anwendungen"
 
 #: src/blacklist_settings_ui.cpp:71
 msgid "Blacklist"
-msgstr "Sperrliste"
+msgstr "Blacklist"
 
 #: src/general_settings_ui.cpp:121
 msgid "General"
@@ -1557,7 +1557,7 @@ msgstr "Pausiert"
 
 #: src/app_info_ui.cpp:87
 msgid "playing"
-msgstr "Spielt"
+msgstr "Wiedergabe"
 
 #: src/calibration_ui.cpp:171
 msgid "Calibration Microphone"
@@ -1587,7 +1587,7 @@ msgstr "Unendlich"
 #~ "to do this?"
 #~ msgstr ""
 #~ "Es wird empfohlen, die Konfiguration nach einem Update zurückzusetzen. "
-#~ "Willst du das tun?"
+#~ "Möchtest du das tun?"
 
 #~ msgid "Yes"
 #~ msgstr "Ja"
@@ -1601,27 +1601,27 @@ msgstr "Unendlich"
 
 #, fuzzy
 #~ msgid "Split 0/1"
-#~ msgstr "1/2 Teilen"
+#~ msgstr "Trenne 1/2"
 
 #, fuzzy
 #~ msgid "Band 0"
-#~ msgstr "Bereiche"
+#~ msgstr "Band 0"
 
 #, fuzzy
 #~ msgid "Band 2"
-#~ msgstr "Bereiche"
+#~ msgstr "Band 2"
 
 #, fuzzy
 #~ msgid "Band 3"
-#~ msgstr "Bereiche"
+#~ msgstr "Band 3"
 
 #, fuzzy
 #~ msgid "Band 1"
-#~ msgstr "Bereiche"
+#~ msgstr "Band 1"
 
 #, fuzzy
 #~ msgid "Band 4"
-#~ msgstr "Bereiche"
+#~ msgstr "Band 4"
 
 #~ msgid "Vocal Leveller 1"
 #~ msgstr "Stimmausgleicher 1"
@@ -1637,33 +1637,33 @@ msgstr "Unendlich"
 
 #, fuzzy
 #~ msgid "Enable All Applications"
-#~ msgstr "Anwendungen"
+#~ msgstr "Alle Anwendungen aktivieren"
 
 #~ msgid "Filter Type"
 #~ msgstr "Filtertyp"
 
 #, fuzzy
 #~ msgid "Lower Frequencies"
-#~ msgstr "Frequenz zurücksetzen"
+#~ msgstr "Unterer Frequenzbereich"
 
 #, fuzzy
 #~ msgid "Higher Frequencies"
-#~ msgstr "Frequenz zurücksetzen"
+#~ msgstr "Oberer Frequenzbereich"
 
 #~ msgid "Audio Effects for Pulseaudio Applications"
-#~ msgstr "Audio Effekte für Pulseaudio Anwendungen"
+#~ msgstr "Audio-Effekte für Pulseaudio-Anwendungen"
 
 #, fuzzy
 #~ msgid "Changed:"
-#~ msgstr "Kanäle"
+#~ msgstr "Geändert:"
 
 #, fuzzy
 #~ msgid "Calf Multiband compressor"
-#~ msgstr "Kompressor"
+#~ msgstr "Calf Multiband Compressor"
 
 #, fuzzy
 #~ msgid "Changes:"
-#~ msgstr "Kanäle"
+#~ msgstr "Änderungen:"
 
 #, fuzzy
 #~ msgid "Tolerance"
@@ -1674,31 +1674,31 @@ msgstr "Unendlich"
 
 #, fuzzy
 #~ msgid "Import"
-#~ msgstr "Preset laden"
+#~ msgstr "Importieren"
 
 #, fuzzy
 #~ msgid "Stereo Enhancer"
-#~ msgstr "Audio Enhancer"
+#~ msgstr "Stereo Enhancer"
 
 #, fuzzy
 #~ msgid "Side Gain"
-#~ msgstr "Vorverstärkung [dB]"
+#~ msgstr "Seitensignal"
 
 #, fuzzy
 #~ msgid "Import Impulse Response"
-#~ msgstr "Glätten"
+#~ msgstr "Impulsantwort importieren"
 
 #, fuzzy
 #~ msgid "Output Device"
-#~ msgstr "Limiter"
+#~ msgstr "Ausgabegerät"
 
 #, fuzzy
 #~ msgid "Input Device"
-#~ msgstr "Limiter"
+#~ msgstr "Eingangsgerät"
 
 #, fuzzy
 #~ msgid "Advanced Settings"
-#~ msgstr "Einstellungen"
+#~ msgstr "Erweiterte Einstellungen"
 
 #, fuzzy
 #~ msgid "Meters"
@@ -1723,7 +1723,7 @@ msgstr "Unendlich"
 
 #, fuzzy
 #~ msgid "Output Limiter"
-#~ msgstr "Limiter"
+#~ msgstr "Ausgangsbegrenzer"
 
 #~ msgid "Engine Room"
 #~ msgstr "Maschinenraum"
@@ -1736,7 +1736,7 @@ msgstr "Unendlich"
 
 #, fuzzy
 #~ msgid "Mono Input"
-#~ msgstr "Eingang"
+#~ msgstr "Mono-Eingang"
 
 #~ msgid "Delete Preset"
 #~ msgstr "Preset löschen"
@@ -1755,37 +1755,37 @@ msgstr "Unendlich"
 
 #, fuzzy
 #~ msgid "Buffer [ms]"
-#~ msgstr "Puffer Latenz"
+#~ msgstr "Puffer [ms]"
 
 #, fuzzy
 #~ msgid "Latency [ms]"
-#~ msgstr "Latenz"
+#~ msgstr "Latenz [ms]"
 
 #~ msgid "Threshold [dB]"
-#~ msgstr "Schwelle [dB]"
+#~ msgstr "Schwellwert [dB]"
 
 #~ msgid "Makeup [dB]"
-#~ msgstr "Anhebung [dB]"
+#~ msgstr "Makeup [dB]"
 
 #, fuzzy
 #~ msgid "Delay [ms]"
-#~ msgstr "Öffnen [ms]"
+#~ msgstr "Verzögerung [ms]"
 
 #, fuzzy
 #~ msgid "Gain Reduction [dB]"
-#~ msgstr "Vorverstärkung [dB]"
+#~ msgstr "Dämpfung [dB]"
 
 #, fuzzy
 #~ msgid "Low [dB]"
-#~ msgstr "Grenze [dB]"
+#~ msgstr "Untere Grenze [dB]"
 
 #, fuzzy
 #~ msgid "High [dB]"
-#~ msgstr "Grenze [dB]"
+#~ msgstr "Obere Grenze [dB]"
 
 #, fuzzy
 #~ msgid "Input Gate"
-#~ msgstr "Limiter"
+#~ msgstr "Eingangs-Gate"
 
 #~ msgid "Audio Enhancer"
 #~ msgstr "Audio Enhancer"
